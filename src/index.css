@@ -85,7 +85,7 @@ ul.list{
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  padding: 0px;
 }
 li {
   display: flex;
@@ -93,13 +93,19 @@ li {
   justify-content: space-between;
   list-style: none ;
   border-bottom: 1px solid black;
-  min-width: 60%;
+  width: 80%;
   padding: 12px;
 }
 .item {
   color: #D8D8D8;
   font-size: 32px;
   border: none;
+}
+.check {
+  font-size: 32px;
+  border: none;
+  color: #408E91;
+  text-decoration: line-through;
 }
 .checkbox {
   width: 28px;
@@ -118,12 +124,13 @@ li {
   font-size: 20px;
   font-weight: bold;
   box-shadow: -4px 4px 4px black;
-  width: 20%;
+  width: 12%;
 }
 .btn.delete:hover {
   background-color: #408E91;
   border: 1px solid #E49393;
   color: #E49393;
+ 
 
 }
 .empty-list {
@@ -132,3 +139,9 @@ li {
   font-weight: bold;
   color: #408E91;
 }
+
+
+
+
+
+
