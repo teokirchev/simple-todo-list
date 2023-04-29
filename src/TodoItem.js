@@ -23,7 +23,7 @@ export const TodoItem = ({
             </label>
             <button
                 onClick={() => deleteTodo(id)}
-                className="btn delete">Delete
+                className="btn delete">X
             </button>
         </li>
     );

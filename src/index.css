@@ -37,7 +37,7 @@ form:hover {
   font-size: 34px;
   font-weight: bold;
   margin-bottom: 24px;
-  color: #E49393;
+  color: #245953;
 }
 
 input {
@@ -75,7 +75,7 @@ input:focus {
 }
 
 .header {
-  color: #E49393;
+  color: #D8D8D8;
   font-size: 34px;
   text-align: center;
   margin: 0 auto;
